@@ -20,3 +20,4 @@ class Tests(unittest.TestCase):
         other=Model({'recording':['alpha beta'], 'connectivity':['gamma delta']})
         self.assertEqual(other.predict('alpha beta')['category'],'recording')
 if __name__=='__main__': unittest.main()
+

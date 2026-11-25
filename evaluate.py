@@ -10,3 +10,4 @@ def evaluate():
         results.append(dict(text=text,expected=expected,actual=actual,passed=expected==actual))
     return {'note':'Synthetic smoke evaluation only; no real-world accuracy claim','passed':sum(r['passed'] for r in results),'total':len(results),'cases':results}
 if __name__=='__main__': print(json.dumps(evaluate(),ensure_ascii=False,indent=2))
+

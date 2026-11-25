@@ -1,0 +1,41 @@
+[
+  {
+    "ticket_id": "LAB-001",
+    "category": "connectivity",
+    "model_score": 0.961,
+    "review_required": true,
+    "steps": [
+      "وثق رسالة الحالة ووقت ظهورها.",
+      "اطلب من الفني المخول مراجعة حالة الرابط والطاقة وفق إجراءات الموقع."
+    ]
+  },
+  {
+    "ticket_id": "LAB-002",
+    "category": "recording",
+    "model_score": 0.9445,
+    "review_required": true,
+    "steps": [
+      "تحقق من اختيار الوقت والقناة الصحيحين في بيئة التدريب.",
+      "ارفع للفني المخول نتيجة الفحص ورسالة التخزين دون حذف التسجيلات."
+    ]
+  },
+  {
+    "ticket_id": "LAB-003",
+    "category": "image",
+    "model_score": 0.961,
+    "review_required": true,
+    "steps": [
+      "وثق نوع ضعف الصورة دون مشاركة لقطات حساسة.",
+      "اطلب مراجعة العدسة والإضاءة من المختص وفق إجراءات الموقع."
+    ]
+  },
+  {
+    "ticket_id": "LAB-004",
+    "category": "human_review",
+    "model_score": 0.3333,
+    "review_required": true,
+    "steps": [
+      "الوصف غير كاف أو ملتبس؛ اطلب تفاصيل إضافية ومراجعة مختص."
+    ]
+  }
+]
