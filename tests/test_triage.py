@@ -21,3 +21,4 @@ class Tests(unittest.TestCase):
         self.assertEqual(other.predict('alpha beta')['category'],'recording')
 if __name__=='__main__': unittest.main()
 
+

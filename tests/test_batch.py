@@ -17,3 +17,4 @@ class BatchTests(unittest.TestCase):
         text=report(rows);self.assertNotIn('<script>',text);self.assertIn('&lt;script&gt;',text)
     def test_no_description_export(self):
         self.assertNotIn('انقطاع الشبكة الاتصال متقطع',report(classify('examples/tickets.csv')))
+

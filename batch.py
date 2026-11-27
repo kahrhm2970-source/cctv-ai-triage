@@ -41,3 +41,4 @@ def main():
         print(f'Exported {len(rows)} tickets; human review required for all.')
     except (ValueError,OSError,UnicodeError,csv.Error) as e:p.exit(2,str(e)+'\n')
 if __name__=='__main__':main()
+

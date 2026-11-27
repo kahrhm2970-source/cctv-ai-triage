@@ -49,3 +49,4 @@ if __name__=='__main__':
         print(json.dumps(Model().predict(args.text if args.text is not None else input('وصف تدريبي: ')),ensure_ascii=False,indent=2))
     except ValueError as exc: p.exit(2,str(exc)+'\n')
 
+
